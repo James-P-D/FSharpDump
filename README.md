@@ -1,2 +1,3 @@
 # FSharpDump
-Dumping ground for F# learning
+Dumping ground for [F#](https://fsharp.org/) learning
+
