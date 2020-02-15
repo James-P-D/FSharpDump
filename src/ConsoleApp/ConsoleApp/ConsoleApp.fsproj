@@ -6,6 +6,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="function_examples.fs" />
+    <Compile Include="bind_examples.fs" />
+    <Compile Include="output_examples.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

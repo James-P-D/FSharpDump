@@ -1,39 +1,23 @@
 ﻿open System
+open output_examples
+open bind_examples
+open function_examples
 
-let hello() =
-    printf "enter name: "
-    let name = Console.ReadLine()
-    printfn "Hello %s" name
+// ----------------- output_examples ----------------- //
 
-    // Note we also have..
-    // %i for integers
-    // %f for floats
-    // %b for booleans
-    // %A for tuples?
-    // %O for objects?
-    // %M for BigNum?
+//hello()
+//padded_output  
 
-let padded_output() =
-    printfn "[%-5s]" "X"     // pad-right
-    printfn "[%5s]" "X"      // pad-left
-    printfn "[%*s]" 5 "X"    // pad-left by 5
-    printfn "[%*s]" 10 "X"   // pad-left by 10 (but negative doesn't work :/ )
+// ------------------ bind_examples ------------------ //
 
-////////////////////////////////////////////////////////////////////////////////////////////////////////    
-////////////////////////////////////////////////////////////////////////////////////////////////////////    
+//bind_test()
 
-let bind_test() =
-    let mutable weight = 123
-    printfn "weight is %i\n" weight
-    weight <- 456                        // This only works because weight is mutable. Remove mutable and we get a compile-time error
-    printfn "weight is now %i\n" weight
+// ---------------- function_examples ---------------- //
 
-    let height = ref 123
-    printfn "height is %i\n" !height     // Needs exclamation mark to dereference the reference
-    height := 456
-    printfn "height is now %i\n" !height // Needs exclamation mark to dereference the reference
-    
-bind_test()
+printfn "5 + 10 = %i" (get_sum(5, 10))
+printfn "5 + 10 = %i" (get_int_sum(5, 10))
+printfn "Factorial 4 = %i" (factorial 4)
+printfn "List = %A" rand_list
 
 //Stopped at 12 mins
 //https://www.youtube.com/watch?v=c7eNDJN758U&list=PLGLfVvz_LVvSX7fVd4OUFp_ODd86H0ZIY&index=47&t=0s
