@@ -3,8 +3,9 @@ Dumping ground for [F#](https://fsharp.org/) learning
 
 ## Contents
 
-Starting point
+Starting point  
 [Program.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/Program.fs)  
+
 [output_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/output_examples.fs)  
 [bind_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/bind_examples.fs)  
 [function_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/function_examples.fs)  
