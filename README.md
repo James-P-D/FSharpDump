@@ -23,7 +23,6 @@ Starting point
 [generics_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/generics_examples.fs)  
 [struct_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/struct_examples.fs)  
 [class_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/class_examples.fs)  
-[inheritance_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/inheritance_examples.fs)  
 
 ..there's also the following file, which is basically an introduction to F# which ships with most instances of Visual Studio  
 [misc.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/misc.fs)  
