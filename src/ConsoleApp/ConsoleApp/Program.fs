@@ -45,11 +45,15 @@ open inheritance_examples
 
 // ----------------- string_examples ----------------- //
 
-do_string_examples()
+//do_string_examples()
 
 // ------------------ loop_examples ------------------ //
 
+//do_loop_examples()
+
 // --------------- conditional_examples -------------- //
+
+do_conditional_examples()
 
 // ------------------ list_examples ------------------ //
 
