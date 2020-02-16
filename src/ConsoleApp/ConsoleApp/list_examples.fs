@@ -59,3 +59,22 @@ let do_list_examples() =
     
     // Get the tail
     printfn "Tail List1 = %A" (list1.Tail)
+
+    // Filter out only evens
+    printfn "We can filter so we only get the even numbers from list1"
+    let list8 = list1 |> List.filter (fun x -> x % 2 = 0)
+    printfn "List8 = %A" list8
+ 
+    // Multiply all values times themselves
+    printfn "We can use List.map to apply an anonymous function to every element in list 8, in this case squaring them"
+    let list9 = list8 |> List.map (fun x -> (x * x))
+    printfn "List9 = %A" list9
+ 
+    // Sort a list
+    printfn "Sorted constant list = %A" (List.sort [5; 4; 3])
+    printfn "Sorted list1 = %A" (List.sort list1)
+
+    // Sum a list with fold
+    printfn "We can use List.fold to get a single value after applying anonymous function to every item in list"
+    printfn "Sum of list1 = %i" (List.fold (fun sum elem -> sum + elem) 0 list1)
+ 

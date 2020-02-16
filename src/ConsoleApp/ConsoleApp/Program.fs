@@ -57,9 +57,11 @@ open inheritance_examples
 
 // ------------------ list_examples ------------------ //
 
-do_list_examples()
+//do_list_examples()
 
 // ------------------ enum_examples ------------------ //
+
+do_enum_examples()
 
 // ----------------- option_examples ----------------- //
 
