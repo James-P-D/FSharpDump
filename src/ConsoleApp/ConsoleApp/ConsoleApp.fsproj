@@ -6,24 +6,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Compile Include="inheritance_examples.fs" />
-    <Compile Include="class_examples.fs" />
-    <Compile Include="struct_examples.fs" />
-    <Compile Include="generics_examples.fs" />
-    <Compile Include="map_examples.fs" />
-    <Compile Include="sequence_examples.fs" />
-    <Compile Include="record_examples.fs" />
-    <Compile Include="tuple_examples.fs" />
-    <Compile Include="option_examples.fs" />
-    <Compile Include="function_examples.fs" />
-    <Compile Include="bind_examples.fs" />
-    <Compile Include="conditional_examples.fs" />
-    <Compile Include="enum_examples.fs" />
-    <Compile Include="list_examples.fs" />
-    <Compile Include="loop_examples.fs" />
-    <Compile Include="string_examples.fs" />
-    <Compile Include="maths_examples.fs" />
     <Compile Include="output_examples.fs" />
+    <Compile Include="bind_examples.fs" />
+    <Compile Include="function_examples.fs" />
+    <Compile Include="maths_examples.fs" />
+    <Compile Include="string_examples.fs" />
+    <Compile Include="loop_examples.fs" />
+    <Compile Include="conditional_examples.fs" />
+    <Compile Include="list_examples.fs" />
+    <Compile Include="enum_examples.fs" />
+    <Compile Include="option_examples.fs" />
+    <Compile Include="tuple_examples.fs" />
+    <Compile Include="record_examples.fs" />
+    <Compile Include="sequence_examples.fs" />
+    <Compile Include="map_examples.fs" />
+    <Compile Include="generics_examples.fs" />
+    <Compile Include="struct_examples.fs" />
+    <Compile Include="class_examples.fs" />
+    <Compile Include="inheritance_examples.fs" />
     <Compile Include="Program.fs" />
   </ItemGroup>
 

@@ -61,9 +61,11 @@ open inheritance_examples
 
 // ------------------ enum_examples ------------------ //
 
-do_enum_examples()
+//do_enum_examples()
 
 // ----------------- option_examples ----------------- //
+
+do_option_examples()
 
 // ----------------- tuple_examples ------------------ //
 
