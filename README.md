@@ -21,6 +21,7 @@ Starting point
 [sequence_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/sequence_examples.fs)  
 [map_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/map_examples.fs)  
 [generics_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/generics_examples.fs)  
+[exception_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/exception_examples.fs)  
 [struct_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/struct_examples.fs)  
 [class_examples.fs](https://github.com/James-P-D/FSharpDump/blob/master/src/ConsoleApp/ConsoleApp/class_examples.fs)  
 

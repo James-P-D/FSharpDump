@@ -1,4 +1,5 @@
 ﻿open System
+
 open output_examples
 open bind_examples
 open function_examples
