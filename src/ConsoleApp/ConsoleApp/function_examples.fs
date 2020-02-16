@@ -8,7 +8,7 @@ let get_sum(x, y) = x + y
 let get_int_sum (x : int, y : int) : int = x + y
 
 // We can create recursive functions
-let rec factorial x =
+let rec factorial x =   
     if x < 1 then 1
     else x * factorial (x - 1)
  
