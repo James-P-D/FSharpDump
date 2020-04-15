@@ -1,6 +1,10 @@
 # FSharpDump
 Dumping ground for [F#](https://fsharp.org/) learning
 
+## Basics
+
+Much of this is taken from [Derek Banas' video](https://www.youtube.com/watch?v=c7eNDJN758U).
+
 ## Contents
 
 Starting point  
