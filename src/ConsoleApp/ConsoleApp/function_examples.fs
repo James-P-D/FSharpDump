@@ -34,5 +34,16 @@ let add_num n = n + 5
 
 let mult_add = mult_num >> add_num
 let add_mult = mult_num << add_num
-    
-    
+
+// We can call functions mutually with 'and'
+let rec doubler some_list =
+    match some_list with
+    | [] -> 0
+    | head::tail -> (head * 2) + tripler(tail)
+and tripler some_list =
+    match some_list with
+    | [] -> 0
+    | head::tail -> (head * 3) + doubler(tail)
+      
+//printfn "%A" (doubler([1..10]))
+       
